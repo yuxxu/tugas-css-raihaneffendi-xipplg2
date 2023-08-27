@@ -1,0 +1,40 @@
+* body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    /* mengubah font untuk semua bagian */
+}
+
+table {
+    border-collapse: collapse;
+    /* untuk mengurangi jarak antara kolom dan baris */
+}
+
+thead, tr, td {
+    width: 50px;
+    /* mengubah panjang td pada turunan thead */
+    border-bottom: 1px solid #ffffff;
+    /* mengubah style border bagian bawah */
+}
+
+tbody, tr, td {
+    width: 100px;
+    /* mengubah panjang td pada turunan tbody */
+}
+
+.ganjil{
+    background-color:  #81CFE0;
+    /* setting background color untuk baris yang memiliki angka ganjil */
+}
+
+.genap {
+    background-color: #81CFE0;
+    color: #ffffff;
+    /* setting warna font dan background color untuk baris yang memiliki angka ganjil */
+}
+
+tr :hover{
+    color: #bdbdbd;
+    background-color: #7172a9;
+    cursor: pointer;
+    /* mengubah settingan teks pada tiap objek yang di sentuh oleh cursor */
+}
+
